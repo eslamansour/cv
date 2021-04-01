@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 70px;
   z-index: 996;
   background: #e9ecdb;
   border: 2px solid #313a57;
@@ -1103,12 +1103,27 @@ section {
 
 .cv-download{
   color: #eaebf0;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.download-icon{
+  padding: 7px;
+  margin-right: 5px;
+  background-color: white;
+  color: #313a57;
+  border-radius: 50%;
 }
 
 @media (max-width: 1199px) {
   #footer {
-    position: static;
-    width: auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
     padding-right: 20px 15px;
+    padding: 10px;
+  }
+  .cv-download{
+    border: unset;
   }
 }
